@@ -20,3 +20,7 @@ The collaboration browser scenario joins separate editor/viewer identities, prop
 Screenshots are `entry.png`, `board.png`, `conversation.png` and `mobile.png`. Morgan, Riley and Sam are automated-test display names, not evidence of real user adoption. The sample board starts with one actual demo owner and an empty activity history.
 
 These checks are not load measurements, a full accessibility/security audit, or verification of production account management. The application is a bounded single-process demo with anonymous identities and disposable data.
+
+## Published demo
+
+Both browser scenarios passed against `https://collabboard-demo.onrender.com/` on 31 October 2026. The collaboration scenario used three independent browser contexts; the drag-and-drop scenario checked a capacity rejection, waited for the board to become draggable again and verified reordering. The initial GitHub Actions run also completed successfully for application commit `072310b`.

@@ -192,6 +192,13 @@ test("drag-and-drop orders cards and respects work-in-progress limits", async ({
     });
   await expect(page.getByRole("alert")).toContainText("work-in-progress limit");
   await expect(backlog.locator('[data-card-number="102"]')).toBeVisible();
+  await page
+    .getByRole("button", { name: "Dismiss error", exact: true })
+    .click();
+  await expect(doing.locator('[data-card-number="101"]')).toHaveAttribute(
+    "draggable",
+    "true",
+  );
   await doing
     .locator('[data-card-number="101"]')
     .dragTo(doing.locator('[data-card-number="106"]'), {

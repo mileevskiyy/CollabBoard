@@ -2,6 +2,11 @@
 
 **A shared Kanban workspace for tasks, conversations and moving work forward.**
 
+[![Live demo](https://img.shields.io/badge/Live_demo-Try_CollabBoard-d4eb8d?style=for-the-badge)](https://collabboard-demo.onrender.com/)
+[![Collaboration checks](https://github.com/mileevskiyy/CollabBoard/actions/workflows/ci.yml/badge.svg)](https://github.com/mileevskiyy/CollabBoard/actions/workflows/ci.yml)
+
+**[Open the live demo](https://collabboard-demo.onrender.com/)** → **Try the demo**. No account or setup key required. To test with another identity, create an invitation and open it in a private browser window. The free service may take a little time to wake after inactivity.
+
 CollabBoard gives a small group one place to organize a project: create cards, assign work, discuss decisions and move tasks through Backlog, In progress, In review and Done. Changes arrive in other browser sessions through a live event stream. The visual direction pairs a graphite workspace with coloured cards, condensed display typography and restrained lime accents.
 
 ![CollabBoard workspace](docs/board.png)
